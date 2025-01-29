@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue Page</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2a97f;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .cart-button button {
+            padding: 5px 15px;
+            background-color: #ffcc00;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- Updated Header -->
+        <tr>
+            <th colspan="2"><img src="1.png" alt="Logo" class="logo"></th>
+            <th colspan="4">GL Bajaj</th>
+        </tr>
+        
+        <!-- Menu Links: Adjusted to reflect changes -->
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="log.html">Login</a></td>
+            <td><a href="reg.html">Registration</a></td>
+            <th><a href="catlog.html">Catalogue</a></th>
+
+            <td><a href="cart.html">Cart</a></td>
+        </tr>
+
+        <!-- Updated Rows with Exchanged Content -->
+        <tr>
+            <td>CSE</td>
+            <td><img src="2.png" alt="Image 2"></td>
+            <td>
+                Book: XML Bible<br>
+                Author: Winston<br>
+                Publisher: Wiley
+            </td>
+            <td>$4</td>
+            <td class="cart-button">
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> 
+                    Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>ECE</td>
+            <td><img src="3.png" alt="Image 3"></td>
+            <td>
+                Book: AI<br>
+                Author: S. Russel<br>
+                Publisher: Princeton Hall
+            </td>
+            <td>$6</td>
+            <td class="cart-button">
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> 
+                    Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>EEE</td>
+            <td><img src="4.png" alt="Image 4"></td>
+            <td>
+                Book: Java 2<br>
+                Author: Watson<br>
+                Publisher: BPB Publications
+            </td>
+            <td>$35</td>
+            <td class="cart-button">
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> 
+                    Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>CIVIL</td>
+            <td><img src="5.png" alt="Image 6"></td>
+            <td>
+                Book: HTML in 24 Hours<br>
+                Author: Sam Peter<br>
+                Publisher: Sam Publications
+            </td>
+            <td>$5</td>
+            <td class="cart-button">
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> 
+                    Add to cart</button>
+                        </td>
+        </tr>
+    </table>
+
+</body>
+</html>

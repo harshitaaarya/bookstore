@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        /* Table borders */
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        /* First row (Logo and GL Bajaj) styling */
+        h1 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Orange background for first row */
+        .header-row {
+            background-color: rgb(248, 167, 16);
+        }
+
+        /* Lighter orange background for the second row (Navigation) */
+        .navigation-row {
+            background-color: #f2cf8d; /* Lighter shade of orange */
+        }
+
+        /* Image size for the logo */
+        img {
+            width: 50px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Links in the navigation row */
+        a {
+            text-decoration: none;
+            color: rgb(34, 34, 35);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Department description cells */
+        .description {
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- First row: Logo -->
+        <tr class="header-row">
+            <td style="text-align:center;"><img src="1.png" alt="Logo"></td>
+            <th colspan="8"><h1>GL Bajaj</h1></th>
+        </tr>
+
+        <!-- Second row: Navigation just below the logo -->
+        <tr class="navigation-row">
+            <td><a href="https://www.glbajajgroup.org/">Home</a></td>
+            <th><a href="log.html">Login</a></th>
+            <th><a href="reg.html">Registration</a></th>
+            <th><a href="catlog.html">Catalogue</a></th>
+            <th><a href="cart.html">Cart</a></th>
+        </tr>
+
+        <!-- Department rows with descriptions -->
+        <tr>
+            <td><a href="https://www.glbitm.org/cse-syllabus/">CSE</a></td>
+            <td colspan="5" class="description">Description of CSE department and available books.</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.glbitm.org/courses-and-admission/under-graduate-btech/electronics-and-communication-engineering/about-departmen">ECE</a></td>
+            <td colspan="5" class="description">Description of ECE department and available books.</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.glbitm.org/electrical-and-electronics-engineering/">EEE</a></td>
+            <td colspan="5" class="description">Description of EEE department and available books.</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.glbitm.org/civil-engineering-program-admission-open/">CIVIL</a></td>
+            <td colspan="5" class="description">Description of CIVIL department and available books.</td>
+        </tr>
+    </table>
+
+</body>
+</html>
