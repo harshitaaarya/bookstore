@@ -1,8 +1,7 @@
 # Online Bookstore WebApp
 
 **Name:** Harshita Aarya  
-**Roll:** 2305110100068  
-**Sec:** G1  
+
 
 ## Description
 A fully functional online bookstore web project built using HTML, CSS, and JavaScript. Features a catalog to browse books, add them to a cart, and view selected items. Developed as a 2nd-year assignment to demonstrate front-end web development skills.
@@ -21,7 +20,7 @@ A fully functional online bookstore web project built using HTML, CSS, and JavaS
 ## Installation / Usage
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/Online-Bookstore-WebApp.git
+   git clone https://github.com/harshitaaarya/Online-Bookstore-WebApp.git
 Open index.html in any web browser.
 
 Browse the catalog and try adding books to the cart.
